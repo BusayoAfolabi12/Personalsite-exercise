@@ -5,6 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Busayo's Contact</title>
+
+<style>
+
+    body {
+            background-color: antiquewhite;
+        }
+    hr {
+            border-style: none;
+            border-top-style: dotted;
+            border-color: brown;
+            border-width: 3px;
+            width: 50%;
+        }
+</style>
+
 </head>
 <body>
     <ul>
@@ -17,28 +32,29 @@
         <form action="mailto:busayoafolabi12@gmail.com" method="post" enctype="text/plain">
             <table>
                 <tr>
-                    <td><label>Your Name:</label></td>
-                    <td><input type="text" name="" value=""><br></td>
+                    <td><label for="Name"> Your Name:</label></td>
+                    <td><input type="text" id="Name" name="" value="" placeholder="Input Name" required><br></td>
                 </tr>
                 <tr>
-                    <td><label>Your Email:</label></td>
-                    <td><input type="email" name="" value=""><br></td>
+                    <td><label for="Email">Your Email:</label></td>
+                    <td><input type="email" id="Email" name="" value="" placeholder="enter email" required><br></td>
                 </tr>
                 <tr>
-                    <td><label>Your Message:</label></td>
-                    <td><textarea name="" cols="30" rows="10"></textarea> <br></td>
+                    <td><label for="Message">Your Message:</label></td>
+                    <td><textarea name="" id="Message" cols="30" rows="10" placeholder="Type your message" required></textarea> <br></td>
                 </tr>
                 <tr></tr>
                 <tr>
                     <td></td>
                     <td><input type="submit" name=""></td>
                 </tr>
+                
             </table>
             
             
 
         </form>
     </ul>
-    <p>Return to <a href="personalsite.html"> homepage</a></p>
+    <p>Return to <a href="index.html"> homepage</a></p>
 </body>
 </html>
